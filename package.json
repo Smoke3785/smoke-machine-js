@@ -2,13 +2,27 @@
   "name": "smoke-machine-js",
   "version": "1.1.0",
   "description": "A collection of helper functions often used in my projects.",
+  "homepage": "https://owenrossikeen.com/docs/smoke-machine-js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "jsdoc": "jsdoc -a all -c jsdoc.json -r -R README.md index.js -d docs/jsdoc && jsdoc2md --files index.js > docs/API.md"
   },
-  "keywords": [],
-  "author": "Smoke3785",
+  "keywords": [
+    "Helper Functions",
+    "Launch",
+    "Smoke",
+    "Smoke3785"
+  ],
+  "author": {
+    "name": "Owen Rossi-Keen",
+    "email": "owenrossikeen@gmail.com",
+    "url": "https://owenrossikeen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Smoke3785/smoke-machine-js"
+  },
   "license": "ISC",
   "devDependencies": {
     "docdash": "^1.2.0",
