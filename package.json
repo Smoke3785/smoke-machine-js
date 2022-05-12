@@ -1,6 +1,6 @@
 {
   "name": "smoke-machine-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of helper functions often used in my projects.",
   "homepage": "https://owenrossikeen.com/docs/smoke-machine-js",
   "main": "index.js",
