@@ -24,9 +24,15 @@ const { helperFunctions } = require('smoke-machine-js');
 
 Documentation for all modules.
 
-## Helper Functions
+### **Helper Functions**
 
 A collection of functions for processing and formatting data.
+
+Some of these may be redundant, depending on their runtime (e.g. [helperFunctions.getTime()](#helperFunctions.getTime) in a browser with the Internationalization API). These functions are mostly meant to act as polyfills for runtimes where they are not natively supported.
+
+Many of these functions are extremely simple (e.g. [helperFunctions.arrayRandom(arr)](#helperFunctions.arrayRandom)), and you may ask yourself why they require a function. The reason is that I do not feel like writing it 200,000 times, or the underlying code isn't nearly as semantic as a named function.
+
+---
 
 - [helperFunctions](#helperFunctions) : <code>object</code>
   - [.stringToSHA256(str)](#helperFunctions.stringToSHA256) ⇒
@@ -45,8 +51,6 @@ A collection of functions for processing and formatting data.
   - [.arrayRandom(arr)](#helperFunctions.arrayRandom)
   - [.capitalizeString(str)](#helperFunctions.capitalizeString)
   - [.generateOrdinal(i)](#helperFunctions.generateOrdinal) ⇒
-
----
 
 <a name="helperFunctions.stringToSHA256"></a>
 
@@ -240,7 +244,7 @@ e.g. 1 becomes 1st, 9 becomes 9th.
 | ----- | ------------------- | -------------------------------------------------- |
 | i     | <code>number</code> | The number for which an ordinal will be generated. |
 
-## Launch Functions
+### **Launch Functions**
 
 A collection of functions specific to Launch-related projects:
 
@@ -251,14 +255,14 @@ A collection of functions specific to Launch-related projects:
 - Counterforce II
 - smokeSignal
 
-* [launchFunctions](#launchFunctions) : <code>object</code>
+---
+
+- [launchFunctions](#launchFunctions) : <code>object</code>
   - [.stringFromData(bb)](#launchFunctions.stringFromData) ⇒
   - [.getStringData(str)](#launchFunctions.getStringData) ⇒
   - [.getStringDataSize(str)](#launchFunctions.getStringDataSize) ⇒
   - [.sanitizeName(str)](#launchFunctions.sanitizeName) ⇒
   - [.cleanJSONGameSave(json)](#launchFunctions.cleanJSONGameSave) ⇒
-
----
 
 <a name="launchFunctions.stringFromData"></a>
 
