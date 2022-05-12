@@ -24,6 +24,8 @@ const { helperFunctions } = require('smoke-machine-js');
 
 Documentation for all modules.
 
+[JSdocs](#) **|** [View on Website](https://owenrossikeen.com/docs/smoke-machine-js)
+
 ### **Helper Functions**
 
 A collection of functions for processing and formatting data.
