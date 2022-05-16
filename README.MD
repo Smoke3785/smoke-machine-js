@@ -248,6 +248,20 @@ e.g. 1 becomes 1st, 9 becomes 9th.
 | ----- | ------------------- | -------------------------------------------------- |
 | i     | <code>number</code> | The number for which an ordinal will be generated. |
 
+<a name="helperFunctions.removeMarkdownTags"></a>
+
+### helperFunctions.removeMarkdownTags(str) ⇒
+
+Coarsely removes markdown tags from a string.
+e.g. _Hello **world**_ becomes Hello world
+
+**Kind**: static method of [<code>helperFunctions</code>](#helperFunctions)  
+**Returns**: The number without markdown tags
+
+| Param | Type                | Description                         |
+| ----- | ------------------- | ----------------------------------- |
+| str   | <code>string</code> | The string with Markdown formatting |
+
 ### **Launch Functions**
 
 A collection of functions specific to Launch-related projects:

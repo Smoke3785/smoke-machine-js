@@ -330,6 +330,23 @@ const generateOrdinal = (i) => {
   return i + 'th';
 };
 
+/**
+ * Coarsely removes markdown tags from a string.
+ * e.g. *Hello __world__* becomes Hello world
+ * @param {string} str - The string with Markdown formatting
+ * @returns The number without markdown tags
+ * @memberof helperFunctions
+ */
+
+const removeMarkdownTags = (str) => {
+  if (str === null || str === '') {
+    return false;
+  } else {
+    str = str.toString();
+    return str.replace(/(<([^>]+)>)/gi, '');
+  }
+};
+
 // []==================[]
 // [] LAUNCH FUNCTIONS []
 // []==================[]

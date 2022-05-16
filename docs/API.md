@@ -35,6 +35,7 @@
     * [.arrayRandom(arr)](#helperFunctions.arrayRandom)
     * [.capitalizeString(str)](#helperFunctions.capitalizeString)
     * [.generateOrdinal(i)](#helperFunctions.generateOrdinal) ⇒
+    * [.removeMarkdownTags(str)](#helperFunctions.removeMarkdownTags) ⇒
 
 <a name="helperFunctions.stringToSHA256"></a>
 
@@ -91,7 +92,7 @@ Useful for rounding single-precision floats (such as those encoded in a Java app
 <a name="helperFunctions.projectAudit"></a>
 
 ### helperFunctions.projectAudit()
-Iterates over all files (excluding node_modules and the like) to determine the (roughly estimated) number of lines of code in a given project
+Iterates over all files (excluding node_modules and the like) to determine the (roughly estimated) number of lines of code in a given projectAsynchronous
 
 **Kind**: static method of [<code>helperFunctions</code>](#helperFunctions)  
 <a name="helperFunctions.crc32"></a>
@@ -207,6 +208,18 @@ Generates an ordinal suffix for a number.e.g. 1 becomes 1st, 9 becomes 9th.
 | Param | Type | Description |
 | --- | --- | --- |
 | i | <code>number</code> | The number for which an ordinal will be generated. |
+
+<a name="helperFunctions.removeMarkdownTags"></a>
+
+### helperFunctions.removeMarkdownTags(str) ⇒
+Coarsely removes markdown tags from a string.e.g. *Hello __world__* becomes Hello world
+
+**Kind**: static method of [<code>helperFunctions</code>](#helperFunctions)  
+**Returns**: The number without markdown tags  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| str | <code>string</code> | The string with Markdown formatting |
 
 <a name="launchFunctions"></a>
 
