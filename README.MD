@@ -1,4 +1,4 @@
-![smoke-signal-js logo](https://raw.githubusercontent.com/Smoke3785/smoke-machine-js/main/docs/smokeMachine.png)
+![smoke-signal-js logo](https://raw.githubusercontent.com/Smoke3785/smoke-machine-js/main/docs/smokeMachineLightSmall.png)
 
 # smoke-machine-js
 
