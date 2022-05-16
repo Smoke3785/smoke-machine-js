@@ -1,3 +1,5 @@
+![smoke-signal-js logo](https://raw.githubusercontent.com/Smoke3785/smoke-machine-js/main/docs/smokeMachine.png)
+
 # smoke-machine-js
 
 A collection of helpful functions, polyfills, and definitions I frequently use in my projects.
