@@ -262,6 +262,20 @@ e.g. _Hello **world**_ becomes Hello world
 | ----- | ------------------- | ----------------------------------- |
 | str   | <code>string</code> | The string with Markdown formatting |
 
+<a name="helperFunctions.camelCase"></a>
+
+### helperFunctions.camelCase(str) ⇒
+
+Formats a string to camelCase
+e.g. Hello World becomes helloWorld.
+
+**Kind**: static method of [<code>helperFunctions</code>](#helperFunctions)  
+**Returns**: camelCase string
+
+| Param | Type                |
+| ----- | ------------------- |
+| str   | <code>string</code> |
+
 ### **Launch Functions**
 
 A collection of functions specific to Launch-related projects:

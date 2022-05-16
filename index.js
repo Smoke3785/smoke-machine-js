@@ -347,6 +347,21 @@ const removeMarkdownTags = (str) => {
   }
 };
 
+/**
+ * Formats a string to camelCase
+ * e.g. Hello World becomes helloWorld.
+ * @param {string} str
+ * @returns camelCase string
+ * @memberof helperFunctions
+ */
+const camelCase = (str) => {
+  return str
+    .replace(/(?:^\w|[A-Z]|\b\w)/g, function (word, index) {
+      return index == 0 ? word.toLowerCase() : word.toUpperCase();
+    })
+    .replace(/\s+/g, '');
+};
+
 // []==================[]
 // [] LAUNCH FUNCTIONS []
 // []==================[]
@@ -574,6 +589,8 @@ module.exports.helperFunctions = {
   arrayRandom,
   capitalizeString,
   generateOrdinal,
+  removeMarkdownTags,
+  camelCase,
 };
 
 module.exports.launchFunctions = {

@@ -36,6 +36,7 @@
     * [.capitalizeString(str)](#helperFunctions.capitalizeString)
     * [.generateOrdinal(i)](#helperFunctions.generateOrdinal) ⇒
     * [.removeMarkdownTags(str)](#helperFunctions.removeMarkdownTags) ⇒
+    * [.camelCase(str)](#helperFunctions.camelCase) ⇒
 
 <a name="helperFunctions.stringToSHA256"></a>
 
@@ -220,6 +221,18 @@ Coarsely removes markdown tags from a string.e.g. *Hello __world__* becomes Hel
 | Param | Type | Description |
 | --- | --- | --- |
 | str | <code>string</code> | The string with Markdown formatting |
+
+<a name="helperFunctions.camelCase"></a>
+
+### helperFunctions.camelCase(str) ⇒
+Formats a string to camelCasee.g. Hello World becomes helloWorld.
+
+**Kind**: static method of [<code>helperFunctions</code>](#helperFunctions)  
+**Returns**: camelCase string  
+
+| Param | Type |
+| --- | --- |
+| str | <code>string</code> | 
 
 <a name="launchFunctions"></a>
 
